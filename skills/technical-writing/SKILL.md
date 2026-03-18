@@ -1,5 +1,6 @@
 ---
 name: Technical Writing
+description: Write clear, accurate technical documentation including API docs, READMEs, changelogs, and architecture decision records
 category: Content & Communication
 attribution: Original -- Datatide MIT
 ---

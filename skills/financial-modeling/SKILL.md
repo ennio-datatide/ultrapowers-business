@@ -1,5 +1,6 @@
 ---
 name: Financial Modeling
+description: Build and review financial models for startups covering revenue projections, unit economics, burn rate, and runway
 category: Finance & Business
 attribution: Original -- Datatide MIT
 ---

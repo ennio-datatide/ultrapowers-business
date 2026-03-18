@@ -1,5 +1,6 @@
 ---
 name: Pitch Deck
+description: Structure and refine investor pitch decks with compelling storytelling, metrics, and Q&A preparation
 category: Finance & Business
 attribution: Original -- Datatide MIT
 ---

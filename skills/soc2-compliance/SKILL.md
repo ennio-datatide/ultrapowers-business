@@ -1,5 +1,6 @@
 ---
 name: SOC 2 Compliance
+description: Guide organizations through SOC 2 readiness and audit preparation based on AICPA Trust Service Criteria
 category: Compliance & Legal
 attribution: Original -- Datatide MIT
 ---

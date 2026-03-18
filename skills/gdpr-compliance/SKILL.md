@@ -1,5 +1,6 @@
 ---
 name: GDPR Compliance
+description: Guide projects toward GDPR compliance covering key obligations, data protection, and privacy requirements
 category: Compliance & Legal
 attribution: Original -- Datatide MIT
 ---
