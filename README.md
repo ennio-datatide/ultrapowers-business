@@ -1,44 +1,126 @@
-# Ultrapowers Misc
+# Ultrapowers Business
 
-Non-development skills for [ultrapowers](https://github.com/ennio-datatide/ultrapowers) -- marketing, compliance, legal, finance, and business operations.
+Non-development skills for your coding agents — marketing, compliance, finance, and business operations. A companion plugin to [Ultrapowers](https://github.com/ennio-datatide/ultrapowers).
 
-See also:
-- [ultrapowers](https://github.com/ennio-datatide/ultrapowers) -- core skill framework
-- [ultrapowers-dev](https://github.com/ennio-datatide/ultrapowers-dev) -- development and engineering skills
+## How it works
 
-## Categories
+These skills give your coding agent domain expertise beyond software engineering. Need a landing page with conversion-optimized copy? A GDPR-compliant data flow? A financial model for your pitch deck? Your agent knows how.
 
-### Marketing & Growth
-- **seo-fundamentals** -- On-page SEO, meta tags, structured data, site speed, mobile-first indexing
-- **copywriting** -- Headlines, CTAs, AIDA framework, tone of voice, conversion copy
-- **email-marketing** -- Subject lines, segmentation, drip campaigns, A/B testing, deliverability
-
-### Compliance & Legal
-- **gdpr-compliance** -- Data subject rights, consent, DPO, DPIA, breach notification, lawful bases
-- **soc2-compliance** -- Trust service criteria, Type I vs Type II, evidence collection, controls
-
-### Finance & Business
-- **financial-modeling** -- Revenue projections, unit economics, burn rate, runway, fundraising metrics
-- **pitch-deck** -- Slide structure, storytelling, metrics that matter, investor Q&A prep
-
-### Content & Communication
-- **technical-writing** -- API docs, README structure, changelog, architecture decision records
+Each skill is self-contained and triggers automatically when relevant. No special commands needed — your agent just has business superpowers.
 
 ## Installation
 
-Add skills to your project's `.claude/settings.json`:
+### Claude Code Official Marketplace
 
-```json
-{
-  "skills": [
-    "/path/to/ultrapowers-business/skills/seo-fundamentals/SKILL.md",
-    "/path/to/ultrapowers-business/skills/copywriting/SKILL.md"
-  ]
-}
+```bash
+/plugin install ultrapowers-business@ennio-datatide
 ```
 
-Or reference individual skill files directly in your Claude Code configuration.
+### From Source
+
+```bash
+git clone https://github.com/ennio-datatide/ultrapowers-business.git
+```
+
+### Verify Installation
+
+Start a new session and ask for something that should trigger a skill (for example, "write me a cold email sequence" or "audit this page for SEO"). The agent should automatically invoke the relevant skill.
+
+## What's Inside
+
+### Marketing & Growth
+
+| Skill | What it covers |
+|-------|---------------|
+| `seo-audit` | Site-wide SEO analysis, technical issues, content gaps |
+| `ai-seo` | AI search optimization, LLM visibility, answer engine strategy |
+| `programmatic-seo` | Template-driven pages at scale, dynamic content generation |
+| `site-architecture` | Information architecture, URL structure, internal linking |
+| `schema-markup` | Structured data, rich snippets, JSON-LD implementation |
+| `content-strategy` | Editorial planning, content pillars, distribution channels |
+| `social-content` | Platform-native content, engagement patterns, scheduling |
+| `copywriting` | Headlines, CTAs, AIDA framework, tone of voice, conversion copy |
+| `copy-editing` | Style consistency, clarity, grammar, brand voice alignment |
+| `marketing-ideas` | Campaign ideation, channel strategy, creative briefs |
+| `marketing-psychology` | Behavioral triggers, persuasion patterns, cognitive biases |
+| `paid-ads` | PPC campaigns, ad copy, targeting, budget allocation |
+| `ad-creative` | Visual and copy direction for ad campaigns |
+
+### Conversion & Growth
+
+| Skill | What it covers |
+|-------|---------------|
+| `page-cro` | Landing page optimization, A/B test hypotheses, layout |
+| `form-cro` | Form design, field optimization, friction reduction |
+| `signup-flow-cro` | Registration flow optimization, progressive profiling |
+| `onboarding-cro` | User activation, first-run experience, time-to-value |
+| `popup-cro` | Exit intent, scroll triggers, timing, frequency capping |
+| `paywall-upgrade-cro` | Free-to-paid conversion, plan comparison, upgrade triggers |
+| `ab-test-setup` | Experiment design, statistical significance, test duration |
+| `analytics-tracking` | Event tracking, funnel analysis, attribution |
+
+### Outbound & Sales
+
+| Skill | What it covers |
+|-------|---------------|
+| `cold-email` | Outbound sequences, personalization, deliverability |
+| `email-sequence` | Drip campaigns, nurture flows, lifecycle messaging |
+| `lead-magnets` | Gated content strategy, value exchange, capture forms |
+| `free-tool-strategy` | Free tool as acquisition channel, viral loops |
+| `referral-program` | Referral mechanics, incentives, tracking |
+| `launch-strategy` | Go-to-market planning, launch sequences, PR |
+| `competitor-alternatives` | Competitive positioning, comparison pages, switching guides |
+| `sales-enablement` | Sales collateral, battle cards, objection handling |
+| `product-marketing-context` | Positioning, messaging, value propositions |
+
+### Finance & Business
+
+| Skill | What it covers |
+|-------|---------------|
+| `financial-modeling` | Revenue projections, unit economics, burn rate, runway |
+| `pitch-deck` | Slide structure, storytelling, metrics, investor Q&A prep |
+| `pricing-strategy` | Pricing models, willingness-to-pay, packaging |
+| `churn-prevention` | Retention analysis, intervention triggers, win-back |
+| `revops` | Revenue operations, pipeline metrics, forecasting |
+
+### Compliance & Legal
+
+| Skill | What it covers |
+|-------|---------------|
+| `gdpr-compliance` | Data subject rights, consent, DPO, DPIA, breach notification |
+| `soc2-compliance` | Trust service criteria, Type I vs Type II, evidence collection |
+
+### Content & Communication
+
+| Skill | What it covers |
+|-------|---------------|
+| `technical-writing` | API docs, READMEs, changelogs, architecture decision records |
+
+## Companion Plugins
+
+- **[ultrapowers](https://github.com/ennio-datatide/ultrapowers)** — Core workflow engine (brainstorming → research → planning → implementation)
+- **[ultrapowers-dev](https://github.com/ennio-datatide/ultrapowers-dev)** — Development skills (languages, frameworks, architecture, agentic patterns)
+
+## Updating
+
+```bash
+/plugin update ultrapowers-business
+```
+
+## Contributing
+
+Skills live directly in this repository. To contribute:
+
+1. Fork the repository
+2. Create a branch for your skill
+3. Submit a PR
 
 ## License
 
-MIT -- Datatide
+MIT License — Copyright (c) 2026 Datatide. See LICENSE file for details.
+
+## Community
+
+Built by [Ennio Maldonado](https://www.enniomaldonado.com) at [Datatide](https://www.datatide.com).
+
+- **Issues**: https://github.com/ennio-datatide/ultrapowers-business/issues
