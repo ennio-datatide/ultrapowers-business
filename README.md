@@ -31,8 +31,8 @@ Add skills to your project's `.claude/settings.json`:
 ```json
 {
   "skills": [
-    "/path/to/ultrapowers-misc/skills/seo-fundamentals/SKILL.md",
-    "/path/to/ultrapowers-misc/skills/copywriting/SKILL.md"
+    "/path/to/ultrapowers-business/skills/seo-fundamentals/SKILL.md",
+    "/path/to/ultrapowers-business/skills/copywriting/SKILL.md"
   ]
 }
 ```
