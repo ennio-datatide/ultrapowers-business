@@ -1,12 +1,20 @@
 # Ultrapowers Business
 
-Non-development skills for your coding agents — marketing, compliance, finance, and business operations. A companion plugin to [Ultrapowers](https://github.com/ennio-datatide/ultrapowers).
+38 business skills for your coding agents — marketing, SEO, copywriting, conversion optimization, compliance, finance, and sales enablement. A companion plugin to [Ultrapowers](https://github.com/ennio-datatide/ultrapowers).
+
+**[Documentation](https://www.datatide.com/ultrapowers)** · **[GitHub](https://github.com/ennio-datatide/ultrapowers-business)** · **[Issues](https://github.com/ennio-datatide/ultrapowers-business/issues)**
 
 ## How it works
 
 These skills give your coding agent domain expertise beyond software engineering. Need a landing page with conversion-optimized copy? A GDPR-compliant data flow? A financial model for your pitch deck? Your agent knows how.
 
 Each skill is self-contained and triggers automatically when relevant. No special commands needed — your agent just has business superpowers.
+
+## Example
+
+> "Create a landing page for our SaaS launch."
+
+The agent applies copywriting skills for conversion-optimized headlines and CTAs, page-cro for layout and A/B test hypotheses, schema-markup for rich snippets, and analytics-tracking for funnel events — all in a single session without you needing to invoke anything manually.
 
 ## Installation
 
@@ -36,7 +44,7 @@ Start a new session and ask for something that should trigger a skill (for examp
 
 ## What's Inside
 
-### Marketing & Growth
+### Marketing & Growth (13 skills)
 
 | Skill | What it covers |
 |-------|---------------|
@@ -54,7 +62,7 @@ Start a new session and ask for something that should trigger a skill (for examp
 | `paid-ads` | PPC campaigns, ad copy, targeting, budget allocation |
 | `ad-creative` | Visual and copy direction for ad campaigns |
 
-### Conversion & Growth
+### Conversion & Growth (8 skills)
 
 | Skill | What it covers |
 |-------|---------------|
@@ -67,7 +75,7 @@ Start a new session and ask for something that should trigger a skill (for examp
 | `ab-test-setup` | Experiment design, statistical significance, test duration |
 | `analytics-tracking` | Event tracking, funnel analysis, attribution |
 
-### Outbound & Sales
+### Outbound & Sales (9 skills)
 
 | Skill | What it covers |
 |-------|---------------|
@@ -81,7 +89,7 @@ Start a new session and ask for something that should trigger a skill (for examp
 | `sales-enablement` | Sales collateral, battle cards, objection handling |
 | `product-marketing-context` | Positioning, messaging, value propositions |
 
-### Finance & Business
+### Finance & Business (5 skills)
 
 | Skill | What it covers |
 |-------|---------------|
@@ -91,14 +99,14 @@ Start a new session and ask for something that should trigger a skill (for examp
 | `churn-prevention` | Retention analysis, intervention triggers, win-back |
 | `revops` | Revenue operations, pipeline metrics, forecasting |
 
-### Compliance & Legal
+### Compliance & Legal (2 skills)
 
 | Skill | What it covers |
 |-------|---------------|
 | `gdpr-compliance` | Data subject rights, consent, DPO, DPIA, breach notification |
 | `soc2-compliance` | Trust service criteria, Type I vs Type II, evidence collection |
 
-### Content & Communication
+### Content & Communication (1 skill)
 
 | Skill | What it covers |
 |-------|---------------|
@@ -107,7 +115,7 @@ Start a new session and ask for something that should trigger a skill (for examp
 ## Companion Plugins
 
 - **[ultrapowers](https://github.com/ennio-datatide/ultrapowers)** — Core workflow engine (brainstorming → research → planning → implementation)
-- **[ultrapowers-dev](https://github.com/ennio-datatide/ultrapowers-dev)** — Development skills (languages, frameworks, architecture, agentic patterns)
+- **[ultrapowers-dev](https://github.com/ennio-datatide/ultrapowers-dev)** — 52 development skills (languages, frameworks, architecture, agentic patterns)
 
 ## Updating
 
@@ -131,4 +139,5 @@ MIT License — Copyright (c) 2026 Datatide. See LICENSE file for details.
 
 Built by [Ennio Maldonado](https://www.enniomaldonado.com) at [Datatide](https://www.datatide.com).
 
+- **Docs**: https://www.datatide.com/ultrapowers
 - **Issues**: https://github.com/ennio-datatide/ultrapowers-business/issues
