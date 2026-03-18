@@ -3,9 +3,10 @@
   "description": "Business and marketing skills for Claude Code: copywriting, SEO, analytics, compliance, and growth strategies",
   "version": "1.0.0",
   "author": {
-    "name": "Ennio Maldonado"
+    "name": "Ennio Maldonado",
+    "url": "https://www.enniomaldonado.com"
   },
-  "homepage": "https://github.com/ennio-datatide/ultrapowers-business",
+  "homepage": "https://www.datatide.com",
   "repository": "https://github.com/ennio-datatide/ultrapowers-business",
   "license": "MIT",
   "keywords": ["skills", "business", "marketing", "seo", "copywriting", "analytics", "growth"]
