@@ -1,0 +1,12 @@
+{
+  "name": "ultrapowers-business",
+  "description": "Business and marketing skills for Claude Code: copywriting, SEO, analytics, compliance, and growth strategies",
+  "version": "1.0.0",
+  "author": {
+    "name": "ennio-datatide"
+  },
+  "homepage": "https://github.com/ennio-datatide/ultrapowers-business",
+  "repository": "https://github.com/ennio-datatide/ultrapowers-business",
+  "license": "MIT",
+  "keywords": ["skills", "business", "marketing", "seo", "copywriting", "analytics", "growth"]
+}
