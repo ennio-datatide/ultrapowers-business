@@ -71,3 +71,6 @@ Store ADRs in a `docs/adr/` directory, numbered sequentially (`0001-use-postgres
 - Define acronyms on first use.
 - Keep sentences short. One idea per sentence.
 - Use consistent terminology -- create a glossary if the project has domain-specific terms.
+
+## Attribution
+**Original** — Written by Datatide, MIT licensed.

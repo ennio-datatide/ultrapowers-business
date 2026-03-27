@@ -112,6 +112,60 @@ Start a new session and ask for something that should trigger a skill (for examp
 |-------|---------------|
 | `technical-writing` | API docs, READMEs, changelogs, architecture decision records |
 
+## Attribution
+
+We believe in giving credit where it's due.
+
+- **Forked from [source]** — Modified version, original attribution and license preserved
+- **Original** — Written by Datatide, MIT licensed
+
+### Credits
+
+- **[Corey Haines](https://github.com/coreyhaines31/marketingskills)** (MIT) — 33 of 38 skills: all marketing, SEO, CRO, outbound, sales, and most business skills
+
+### Skill Attribution
+
+| Skill | Attribution |
+|-------|-------------|
+| `seo-audit` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `ai-seo` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `programmatic-seo` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `site-architecture` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `schema-markup` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `content-strategy` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `social-content` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `copywriting` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `copy-editing` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `marketing-ideas` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `marketing-psychology` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `paid-ads` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `ad-creative` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `page-cro` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `form-cro` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `signup-flow-cro` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `onboarding-cro` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `popup-cro` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `paywall-upgrade-cro` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `ab-test-setup` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `analytics-tracking` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `cold-email` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `email-sequence` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `lead-magnets` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `free-tool-strategy` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `referral-program` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `launch-strategy` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `competitor-alternatives` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `sales-enablement` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `product-marketing-context` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `pricing-strategy` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `churn-prevention` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `revops` | Forked from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT) |
+| `financial-modeling` | Original — Datatide (MIT) |
+| `pitch-deck` | Original — Datatide (MIT) |
+| `gdpr-compliance` | Original — Datatide (MIT) |
+| `soc2-compliance` | Original — Datatide (MIT) |
+| `technical-writing` | Original — Datatide (MIT) |
+
 ## Companion Plugins
 
 - **[ultrapowers](https://github.com/ennio-datatide/ultrapowers)** — Core workflow engine (brainstorming → research → planning → implementation)

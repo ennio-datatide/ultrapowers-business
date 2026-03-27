@@ -76,3 +76,6 @@ Organize evidence by control objective. Common evidence types:
 3. **Observation period** (3-12 months for Type II) -- Operate controls and collect evidence.
 4. **Audit fieldwork** (2-4 weeks) -- Auditor reviews evidence and interviews staff.
 5. **Report issuance** (2-4 weeks) -- Final SOC 2 report delivered.
+
+## Attribution
+**Original** — Written by Datatide, MIT licensed.

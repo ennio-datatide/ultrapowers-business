@@ -63,3 +63,6 @@ Investors evaluate these signals:
 - Color-code cells: blue for inputs, black for formulas, green for linked references.
 - Include a summary dashboard with key metrics and charts.
 - Version-control your model and document changes.
+
+## Attribution
+**Original** — Written by Datatide, MIT licensed.

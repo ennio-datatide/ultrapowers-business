@@ -53,3 +53,6 @@ Conduct a DPIA before processing that is likely to result in high risk -- profil
 - Notify the supervisory authority within 72 hours of becoming aware of a personal data breach.
 - Notify affected data subjects without undue delay if the breach poses a high risk to their rights.
 - Document every breach, its effects, and the remedial action taken.
+
+## Attribution
+**Original** — Written by Datatide, MIT licensed.

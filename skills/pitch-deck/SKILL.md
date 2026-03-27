@@ -60,3 +60,6 @@ Anticipate and prepare concise answers for:
 - Showing a TAM slide with no bottoms-up logic.
 - Hiding or ignoring weaknesses -- investors will find them.
 - Not having a clear ask with a specific use of funds.
+
+## Attribution
+**Original** — Written by Datatide, MIT licensed.
