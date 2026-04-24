@@ -1,8 +1,33 @@
-# Ultrapowers Business
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/logo-dark.png">
+    <img src=".github/assets/logo.png" alt="Ultrapowers Business" width="140" />
+  </picture>
+</p>
 
-38 business skills for your coding agents — marketing, SEO, copywriting, conversion optimization, compliance, finance, and sales enablement. A companion plugin to [Ultrapowers](https://github.com/ennio-datatide/ultrapowers).
+<h1 align="center">Ultrapowers Business</h1>
 
-**[Documentation](https://www.datatide.com/ultrapowers)** · **[GitHub](https://github.com/ennio-datatide/ultrapowers-business)** · **[Issues](https://github.com/ennio-datatide/ultrapowers-business/issues)**
+<p align="center">
+  <strong>38 business skills for your coding agents.</strong><br/>
+  Marketing, SEO, copywriting, conversion optimization, compliance, finance, and sales enablement.<br/>
+  Companion plugin to <a href="https://github.com/ennio-datatide/ultrapowers">Ultrapowers</a>.
+</p>
+
+<p align="center">
+  <a href="https://github.com/ennio-datatide/ultrapowers-business/releases"><img alt="Version" src="https://img.shields.io/badge/plugin-v1.0.0-6d28d9?style=flat-square"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/ennio-datatide/ultrapowers-business?color=6d28d9&style=flat-square"></a>
+  <a href="https://github.com/ennio-datatide/ultrapowers-business/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/ennio-datatide/ultrapowers-business?color=6d28d9&style=flat-square"></a>
+  <a href="https://github.com/ennio-datatide/ultrapowers-business/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-6d28d9?style=flat-square"></a>
+  <a href="https://docs.claude.com/en/docs/claude-code"><img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-plugin-6d28d9?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="https://datatide.io/ultrapowers"><strong>Documentation</strong></a> ·
+  <a href="https://github.com/ennio-datatide/ultrapowers-business"><strong>GitHub</strong></a> ·
+  <a href="https://github.com/ennio-datatide/ultrapowers-business/issues"><strong>Issues</strong></a>
+</p>
+
+---
 
 ## How it works
 
@@ -191,7 +216,8 @@ MIT License — Copyright (c) 2026 Datatide. See LICENSE file for details.
 
 ## Community
 
-Built by [Ennio Maldonado](https://www.enniomaldonado.com) at [Datatide](https://www.datatide.com).
+Built by [Ennio Maldonado](https://www.enniomaldonado.com) at [DataTide](https://datatide.io).
 
-- **Docs**: https://www.datatide.com/ultrapowers
+- **Docs**: https://datatide.io/ultrapowers
 - **Issues**: https://github.com/ennio-datatide/ultrapowers-business/issues
+- **Course**: https://ultrapowers.dev
