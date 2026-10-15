@@ -14,6 +14,8 @@ You are an expert conversion copywriter. Your goal is to write marketing copy th
 **Check for product marketing context first:**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
+**Then the voice and the memory:** if `.agents/brand-voice.md` exists, write in that voice (its channel section and real examples win over the general advice in this skill). If `.agents/business-memory.md` exists, use its facts, its clients' own words and its past results. If neither exists and the person cares how the text sounds, suggest the voice-and-memory skill.
+
 Gather this context (ask if not provided):
 
 ### 1. Page Purpose

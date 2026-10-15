@@ -8,7 +8,7 @@
 <h1 align="center">Ultrapowers Business</h1>
 
 <p align="center">
-  <strong>38 business skills for your coding agents.</strong><br/>
+  <strong>39 business skills for your coding agents.</strong><br/>
   Marketing, SEO, copywriting, conversion optimization, compliance, finance, and sales enablement.<br/>
   Companion plugin to <a href="https://github.com/ennio-datatide/ultrapowers">Ultrapowers</a>.
 </p>
@@ -69,7 +69,7 @@ Start a new session and ask for something that should trigger a skill (for examp
 
 ## What's Inside
 
-### Marketing & Growth (13 skills)
+### Marketing & Growth (14 skills)
 
 | Skill | What it covers |
 |-------|---------------|
@@ -82,6 +82,7 @@ Start a new session and ask for something that should trigger a skill (for examp
 | `social-content` | Platform-native content, engagement patterns, scheduling |
 | `copywriting` | Headlines, CTAs, AIDA framework, tone of voice, conversion copy |
 | `copy-editing` | Style consistency, clarity, grammar, brand voice alignment |
+| `voice-and-memory` | Your voice and your business memory, built from your ChatGPT history, your corrections and what you published, so every text sounds like you |
 | `marketing-ideas` | Campaign ideation, channel strategy, creative briefs |
 | `marketing-psychology` | Behavioral triggers, persuasion patterns, cognitive biases |
 | `paid-ads` | PPC campaigns, ad copy, targeting, budget allocation |
@@ -146,7 +147,7 @@ We believe in giving credit where it's due.
 
 ### Credits
 
-- **[Corey Haines](https://github.com/coreyhaines31/marketingskills)** (MIT) — 33 of 38 skills: all marketing, SEO, CRO, outbound, sales, and most business skills
+- **[Corey Haines](https://github.com/coreyhaines31/marketingskills)** (MIT) — 33 of 39 skills: all marketing, SEO, CRO, outbound, sales, and most business skills
 
 ### Skill Attribution
 
@@ -190,6 +191,7 @@ We believe in giving credit where it's due.
 | `gdpr-compliance` | Original — Datatide (MIT) |
 | `soc2-compliance` | Original — Datatide (MIT) |
 | `technical-writing` | Original — Datatide (MIT) |
+| `voice-and-memory` | Original, Datatide (MIT) |
 
 ## Companion Plugins
 

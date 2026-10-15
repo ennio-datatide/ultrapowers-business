@@ -1,0 +1,38 @@
+{
+  "skill_name": "voice-and-memory",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Quiero que Claude escriba como yo. Llevo dos años usando ChatGPT para mis emails de lanzamiento y mis posts de Instagram y ahí ya me pilla el tono. ¿Cómo me traigo eso?",
+      "expected_output": "Should explain the plan briefly in Spanish and ask for the material: the ChatGPT export (Settings → Data controls → Export data), what ChatGPT remembers and custom instructions, and 10 to 20 published texts. Should warn that the export holds every conversation, personal ones included, that it stays on the computer and only business conversations are read. Should not start writing a voice from adjectives.",
+      "assertions": [
+        "Asks for the ChatGPT export and says how to get it",
+        "Asks for published texts as examples",
+        "Warns about the personal conversations in the export and keeps it local",
+        "Does not invent voice rules before reading any evidence"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Aquí tienes el export: ~/Downloads/chatgpt-export.zip. Haz mi archivo de voz.",
+      "expected_output": "Should run scripts/read-chatgpt-export.mjs on the zip into voice-work/, add voice-work/ to .gitignore, read index.tsv, pick the business conversations and show the titles for the person to confirm, then build rules from signals.md and examples from kept.md and published texts, writing .agents/brand-voice.md with sources for each rule. Should run the blind test before calling it done.",
+      "assertions": [
+        "Runs the reader script instead of reading the raw JSON",
+        "Lets the person confirm which conversations are used",
+        "Rules come from corrections, with where each came from",
+        "Examples are copied exactly from real texts",
+        "Proposes the blind test"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Write the welcome email for my new course.",
+      "expected_output": "With .agents/brand-voice.md and .agents/business-memory.md present, the email-sequence or copywriting skill should read both, follow the email section and the never list, and use facts from the memory (offer, price, clients' words). The voice file wins over general advice.",
+      "assertions": [
+        "Reads brand-voice.md and business-memory.md before writing",
+        "Avoids every phrase on the never list",
+        "Uses the clients' own words from the memory"
+      ]
+    }
+  ]
+}
