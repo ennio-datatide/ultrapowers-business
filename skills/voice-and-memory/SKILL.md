@@ -113,3 +113,6 @@ Every writing task (copywriting, email-sequence, social-content, copy-editing, c
 
 - **product-marketing-context**: positioning, audience and offer. Voice-and-memory is how they say it and what has happened; the context is what they sell and to whom.
 - **copywriting**, **email-sequence**, **social-content**, **copy-editing**: use these files.
+
+## Attribution
+**Original**, Datatide, MIT licensed.

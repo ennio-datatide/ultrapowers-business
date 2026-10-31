@@ -311,3 +311,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key analy
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `analytics-tracking` 1.1.0 (commit e4283c6, 2026-03-04). Upstream is now `analytics` 2.2.2 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

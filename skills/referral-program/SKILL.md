@@ -257,3 +257,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key tools
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `referral-program` 1.1.0 (commit e4283c6, 2026-03-04). Upstream is now `referrals` 2.2.1 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

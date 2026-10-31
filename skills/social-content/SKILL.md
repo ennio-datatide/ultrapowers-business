@@ -282,3 +282,4 @@ Instead of guessing, analyze what's working for top creators in your niche:
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `social-content` 1.1.0 (commit e4283c6, 2026-03-04). Upstream is now `social` 2.4.1 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

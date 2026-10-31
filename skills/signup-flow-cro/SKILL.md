@@ -361,3 +361,4 @@ Organized by:
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `signup-flow-cro` 1.1.0 (commit 68f5eaf, 2026-03-04). Upstream is now `signup` 2.0.1 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

@@ -366,3 +366,4 @@ node tools/clis/google-ads.js reports get --type ad_performance --date-range las
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `ad-creative` 1.1.0 (commit 68f5eaf, 2026-03-04). Upstream is now `ad-creative` 2.12.2 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.
