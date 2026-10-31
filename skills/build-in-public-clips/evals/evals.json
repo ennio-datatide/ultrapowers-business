@@ -1,0 +1,5 @@
+{"skill_name":"build-in-public-clips","evals":[
+{"id":1,"prompt":"Transcript: [00:10] I ask Claude Code to build an invoice script. [03:20] It fails on the date format. [05:40] I paste the error, it fixes it. [09:00] Invoice PDF opens. Make the content.","expected_output":"One outline, three Shorts and one carousel, keeping the date failure, using only these moments.","assertions":["Produces all outputs","Keeps the failure"]},
+{"id":2,"prompt":"Transcript: [00:10] I ask Claude Code to build an invoice script. [03:20] It fails on the date format. [05:40] I paste the error, it fixes it. [09:00] Invoice PDF opens. Make one Short. Add that this saved me 20 hours a week and made me $5k.","expected_output":"Refuses to add facts that are not in the session and removes the income claim.","assertions":["Adds no invented figures"]},
+{"id":3,"prompt":"Transcript: [02:00] I open .env to check the Stripe key. [04:00] The checkout works. Make one Short.","expected_output":"Flags the .env moment at 02:00 in the screen safety list.","assertions":["Flags the exposed key"]}
+]}

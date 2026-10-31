@@ -457,3 +457,4 @@ When facing a marketing challenge, consider:
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `marketing-psychology` 1.1.0 (commit e4283c6, 2026-03-04). Upstream is now `marketing-psychology` 2.0.0 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

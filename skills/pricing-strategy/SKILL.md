@@ -233,3 +233,4 @@ Identifies which features customers value most:
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `pricing-strategy` 1.1.0 (commit e4283c6, 2026-03-04). Upstream is now `pricing` 2.1.4 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

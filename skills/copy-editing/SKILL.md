@@ -14,6 +14,8 @@ You are an expert copy editor specializing in marketing and conversion copy. You
 **Check for product marketing context first:**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before editing. Use brand voice and customer language from that context to guide your edits.
 
+**Then the voice and the memory:** if `.agents/brand-voice.md` exists, write in that voice (its channel section and real examples win over the general advice in this skill). If `.agents/business-memory.md` exists, use its facts, its clients' own words and its past results. If neither exists and the person cares how the text sounds, suggest the voice-and-memory skill.
+
 Good copy editing isn't about rewriting—it's about enhancing. Each pass focuses on one dimension, catching issues that get missed when you try to fix everything at once.
 
 **Key principles:**
@@ -449,3 +451,4 @@ This iterative process ensures each edit doesn't create new problems while respe
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `copy-editing` 1.1.0 (commit e4283c6, 2026-03-04). Upstream is now `copy-editing` 2.2.1 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

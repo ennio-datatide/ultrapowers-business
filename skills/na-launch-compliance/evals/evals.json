@@ -1,0 +1,13 @@
+{
+  "skill_name": "na-launch-compliance",
+  "evals": [
+    {"id": 1, "prompt": "Check this ad: Students are making $5,000 a month with Claude Code. Join the course.", "expected_output": "FAIL on C1 and A1. Verdict BLOCK. Rewrite drops the dollar figure and sells skills or time saved.", "assertions": ["Flags the income claim", "Verdict is BLOCK"]},
+    {"id": 2, "prompt": "Check this waitlist form HTML: <form><input type=email><input type=checkbox checked> Send me course emails<button>Join</button></form>", "expected_output": "FAIL on E1 for the pre-checked box. Fix removes the checked attribute and names the sender.", "assertions": ["Flags the pre-checked box under CASL"]},
+    {"id": 3, "prompt": "Check this launch email: Subject: Doors open. Hi Sam, the cohort is open at the link. Thanks, Team UltraPowers. Unsubscribe.", "expected_output": "FAIL on E3 for the missing postal address, even though nothing written is wrong.", "assertions": ["Flags the missing postal address"]},
+    {"id": 4, "prompt": "Check this pricing line for Canada: Only $997! A $49 mandatory platform fee is added at checkout, plus GST/HST.", "expected_output": "FAIL on P1. The fee belongs in the advertised price, so the all-in price is $1,046 plus GST/HST. Tax may stay separate.", "assertions": ["Flags drip pricing", "Keeps tax separate"]},
+    {"id": 5, "prompt": "Check this page. It has a 15 minute countdown that restarts for each visitor when the page reloads, next to: Offer ends when the timer hits zero.", "expected_output": "FAIL on U1. The asset itself shows the deadline is false.", "assertions": ["Flags the fake countdown as FAIL"]},
+    {"id": 6, "prompt": "Check this testimonial on the sales page: 'This course changed how I run my studio.' Priya S. For context, Priya got the beta for free.", "expected_output": "FAIL on T2. A disclosure beside the quote is required.", "assertions": ["Flags the undisclosed free access"]},
+    {"id": 7, "prompt": "Check this Facebook ad headline: Are you broke? Learn Claude Code.", "expected_output": "FAIL on A2 personal attributes. Fix describes the course and does not address the viewer's finances.", "assertions": ["Flags the personal attribute hook"]},
+    {"id": 8, "prompt": "Check this email for false alarms: Subject: Cohort 2 opens Monday. Hi Sam, you asked to hear about Cohort 2. It opens Monday at 9am ET with 40 seats. The price is $997 USD. Datatide LLC, 123 Main St, Wilmington, DE 19801. Unsubscribe in one click below.", "expected_output": "No FAIL. Seat count and consent record are NEEDS EVIDENCE. Verdict FIX FIRST until those are on file.", "assertions": ["Raises no FAIL on clean copy"]}
+  ]
+}

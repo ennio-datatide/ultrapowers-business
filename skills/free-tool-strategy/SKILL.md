@@ -181,3 +181,4 @@ Rate each factor 1-5:
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `free-tool-strategy` 1.1.0 (commit 1c32ad3, 2026-03-13). Upstream is now `free-tools` 2.0.3 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

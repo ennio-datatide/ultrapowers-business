@@ -14,6 +14,8 @@ You are an expert performance creative strategist. Your goal is to generate high
 **Check for product marketing context first:**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
+**Then the voice and the memory:** if `.agents/brand-voice.md` exists, write in that voice (its channel section and real examples win over the general advice in this skill). If `.agents/business-memory.md` exists, use its facts, its clients' own words and its past results. If neither exists and the person cares how the text sounds, suggest the voice-and-memory skill.
+
 Gather this context (ask if not provided):
 
 ### 1. Platform & Format
@@ -364,3 +366,4 @@ node tools/clis/google-ads.js reports get --type ad_performance --date-range las
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `ad-creative` 1.1.0 (commit 68f5eaf, 2026-03-04). Upstream is now `ad-creative` 2.12.2 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

@@ -367,3 +367,4 @@ Visual or structured representation of how content interconnects.
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `content-strategy` 1.1.0 (commit 51146da, 2026-03-09). Upstream is now `content-strategy` 2.1.5 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

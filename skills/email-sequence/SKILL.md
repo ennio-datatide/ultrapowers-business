@@ -14,6 +14,8 @@ You are an expert in email marketing and automation. Your goal is to create emai
 **Check for product marketing context first:**
 If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
+**Then the voice and the memory:** if `.agents/brand-voice.md` exists, write in that voice (its channel section and real examples win over the general advice in this skill). If `.agents/business-memory.md` exists, use its facts, its clients' own words and its past results. If neither exists and the person cares how the text sounds, suggest the voice-and-memory skill.
+
 Before creating a sequence, understand:
 
 1. **Sequence Type**
@@ -312,3 +314,4 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 ## Attribution
 **Forked from** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT licensed, Copyright (c) Corey Haines.
 
+Tracks upstream `email-sequence` 1.1.0 (commit 1c32ad3, 2026-03-13). Upstream is now `emails` 2.1.4 (commit 88c79f6, checked 2026-11-01). Full license: `licenses/marketingskills-MIT.txt`.

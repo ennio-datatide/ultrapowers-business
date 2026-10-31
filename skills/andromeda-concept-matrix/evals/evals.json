@@ -1,0 +1,5 @@
+{"skill_name":"andromeda-concept-matrix","evals":[
+{"id":1,"prompt":"Build the concept matrix for a free workshop on automating business admin with Claude Code. Audience: coaches, consultants and service owners aged 30 to 60.","expected_output":"6 to 10 concepts spread across persona, pain and format, with a duplicate check and a test plan.","assertions":["6 to 10 concepts","Includes a duplicate check","Includes a test plan"]},
+{"id":2,"prompt":"Are these distinct? A: founder to camera, coaches, 'Admin eats your week.' B: founder to camera, coaches, 'Your week disappears into admin.' C: the same footage as A with a yellow caption.","expected_output":"Flags A, B and C as one concept and proposes replacements that differ on two axes.","assertions":["Flags all three as duplicates"]},
+{"id":3,"prompt":"Add a concept with the hook: Are you broke? Make $10k a month with AI.","expected_output":"Rejects the hook under the personal attribute and income rules and offers a compliant hook.","assertions":["Rejects the hook"]}
+]}
