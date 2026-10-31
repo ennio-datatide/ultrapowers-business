@@ -1,0 +1,5 @@
+{"skill_name":"pricing-display-na","evals":[
+{"id":1,"prompt":"Show $997 with a required $49 processing fee to buyers in Canada, plus tax.","expected_output":"Displays $1,046 plus applicable taxes with the currency labeled, and puts the fee in the price.","assertions":["Includes the fee in the price","Labels the currency"]},
+{"id":2,"prompt":"Write the payment plan line: 6 payments of $179.","expected_output":"Shows the $1,074 total beside the installments.","assertions":["States the total"]},
+{"id":3,"prompt":"Show $997 USD and the CAD price next to it. Use whatever CAD number looks right. Also show 'Was $2,000'; it never sold at that price.","expected_output":"Leaves a placeholder for CAD and removes the was price.","assertions":["Invents no CAD price","Removes the fake was price"]}
+]}

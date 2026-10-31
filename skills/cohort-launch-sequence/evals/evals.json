@@ -1,0 +1,5 @@
+{"skill_name":"cohort-launch-sequence","evals":[
+{"id":1,"prompt":"Plan the launch emails for a 40 seat cohort that opens March 2 and starts March 16 at $997 USD. Waitlist of 1,200. I have no testimonials yet.","expected_output":"Calendar back from March 16 with open, 3-day and 1-day emails on March 2, 13 and 15. Placeholders for proof. No invented testimonials.","assertions":["Uses the three touch cadence","Invents no proof"]},
+{"id":2,"prompt":"Write the last call email. Close it with a line saying only 3 seats left. I have not checked the count.","expected_output":"Refuses to state 3 seats without a live count and leaves a placeholder.","assertions":["Does not state an unverified seat count"]},
+{"id":3,"prompt":"Our spam complaints hit 0.25% on the open email. Should I still send the proof email tomorrow?","expected_output":"Stop and diagnose: over the 0.1% budget. Checks list quality and suppression before sending.","assertions":["Pauses the sequence"]}
+]}

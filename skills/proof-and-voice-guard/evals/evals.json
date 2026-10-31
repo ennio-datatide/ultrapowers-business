@@ -1,0 +1,5 @@
+{"skill_name":"proof-and-voice-guard","evals":[
+{"id":1,"prompt":"Check: This isn't just a course — it's a system. Unlock the power of Claude Code and supercharge your business.","expected_output":"Flags the em dash, the contrast construction and the stock verbs. Rewrites without them.","assertions":["Flags the em dash","Flags the contrast construction"]},
+{"id":2,"prompt":"Check: Over 2,000 students have built working apps in under an hour. 'Best course ever' said Sarah.","expected_output":"Marks the student count, the capability claim and the testimonial as UNPROVEN. Uses placeholders.","assertions":["Marks all three unproven","Invents nothing"]},
+{"id":3,"prompt":"Check, with this proof: 'I automated my invoices in one session' from Priya S., permission on file, paid full price. Recording at /proof/priya.mp4.","expected_output":"Passes proof, since source, permission and artifact are named.","assertions":["Does not raise a false failure"]}
+]}
